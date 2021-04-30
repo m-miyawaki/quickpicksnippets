@@ -35,10 +35,6 @@
         "quickpicksnippets.addToEditorContextMenu":{
           "type":"boolean",
           "description": "Add this command to the editor's context menu"
-        },
-        "quickpicksnippets.addToEditorTitleMenu":{
-          "type":"boolean",
-          "description": "Add this command to the editor's title menu"
         }
       }
     },

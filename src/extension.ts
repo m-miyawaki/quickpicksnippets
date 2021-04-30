@@ -4,9 +4,9 @@ export function activate(context: vscode.ExtensionContext) {
 
 	let disposable = vscode.commands.registerCommand('extension.quickpicksnippets', () => {
 
-	let grpArray :any[][] = [[],[]];
-	let nmArray  :any[][] =[[]];
-	let snptArray :any[][] = [[]];
+	let grpArray :any = [[],[]];
+	let nmArray  :any = [[]];
+	let snptArray :any = [[]];
 	let nakedSnpCount = 0;
 	let conf : any = vscode.workspace.getConfiguration('quickpicksnippets').get('snippets');
 
@@ -28,9 +28,9 @@ export function activate(context: vscode.ExtensionContext) {
 			nakedSnpCount++;
 		}
 		else {
-			let grpIndex = grpArray[1].indexOf(group);
+			let grpIndex = grpArray[1].indexOf('group: ' + group);
 			if (grpIndex === -1){
-			grpArray[1].push(group);
+			grpArray[1].push('group: ' + group);
 			nmArray.push(new Array(name));
 			snptArray.push(new Array(snpt));
 			}
@@ -65,10 +65,6 @@ export function activate(context: vscode.ExtensionContext) {
 	
 	}
 
-			
-		
-
-			
 
 		});
 
