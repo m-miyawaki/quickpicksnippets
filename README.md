@@ -38,7 +38,7 @@ Add the objects at "quickpicksnippets.snippets"section in your ```settings.json`
 
 Write your [snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) string as a value of "snippet" key. The values of the "name" keys are your snippet names which will be displayed as Quick Pick list items. You can omit this key. In that case, snippet string itself will be displayed instead.
 
-"group" key is also optional. If this key and value are set, the value (i.e. a name of a group) will be displayed as Quick Pick list items. If you select the group, list of names of snippets which belong to the group will be displayed.
+"group" key is also optional. If this key and value are set, the value (i.e. a name of a group) will be displayed as Quick Pick list items. If you select a group, list of names of snippets which belong to the group will be displayed.
 
 ### <a name="jump"></a>Adding To Editor Context Menu
 If you want to add this command to the editor's context menu, check "Add To Editor Context Menu" in the Settings UI.
