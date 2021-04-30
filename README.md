@@ -1,9 +1,7 @@
 # QuickPckSnippets README
-insert a snippet from QuickPick list
+Insert your own snippets from the QuickPick list
 
-## Features
-
-Insert your own snippets from the QuickPick list.
+## Screen Shot
 
 ![](./gif/quickpicksnippet.gif)
 
