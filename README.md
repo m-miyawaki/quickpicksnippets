@@ -1,5 +1,5 @@
 # QuickPckSnippets README
-Insert your own snippets from the QuickPick list
+Insert your own snippets from the QuickPick list.
 
 ## Screen Shot
 
@@ -10,7 +10,7 @@ Execute ```quickpicksnippets``` command from the Command Palette or the  editor'
 
 ## Extension Settings
 ### Description in ```settings.json```
-Add the objects at "quickpicksnippets.snippets"section in your ```settings.json```. Each ofject can have "group","snippet" and "name" keys with corresponding values. In the sample case displayed above, description in ```settings.json``` is as follows:
+Add the objects at "quickpicksnippets.snippets"section in your ```settings.json```. Each object can have "group","snippet" and "name" keys with corresponding values. In the sample case displayed above, description in ```settings.json``` is as follows:
 
 ```
 {
@@ -36,9 +36,9 @@ Add the objects at "quickpicksnippets.snippets"section in your ```settings.json`
 
 ```
 
-Write your [snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) string as a value of "snippet" key. The values of the "name" keys are your snippet names which will be displayed as Quick Pick list items. You can omit this key. In that case, snippet string itself will be displayed instead.
+Write your [snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets) string as a value of "snippet" key. The values of the "name" keys are your snippet names which will be displayed as Quick Pick list items. If you omit this key, snippet string itself will be displayed instead.
 
-"group" key is also optional. If this key and value are set, the value (i.e. a name of a group) will be displayed as Quick Pick list items. If you select a group, list of names of snippets which belong to the group will be displayed.
+A "group" key is also optional. If this key and value are set, the value (i.e. a name of a group) will be displayed as Quick Pick list items. If you select a group, list of names of snippets which belong to the group will be displayed.
 
 ### <a name="jump"></a>Adding To Editor Context Menu
 If you want to add this command to the editor's context menu, check "Add To Editor Context Menu" in the Settings UI.
@@ -47,5 +47,10 @@ If you want to add this command to the editor's context menu, check "Add To Edit
 ## Release Notes
 ### 1.0.0
 
-First release.
+- First release.
+
+### 1.0.1
+####  Fixed
+- README
+- Package.json
 

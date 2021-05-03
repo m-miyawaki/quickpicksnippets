@@ -1,13 +1,13 @@
 {
   "name": "quickpicksnippets",
   "displayName": "QuickPickSnippets",
-  "description": "insert a snippet from QuickPick list",
+  "description": "Insert your own snippets from the QuickPick list.",
   "publisher": "miyawaki",
   "repository": {
     "url": "https://github.com/m-miyawaki/quickpicksnippets",
     "type": "git"},
  "license": "MIT-0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.54.0"
   },
