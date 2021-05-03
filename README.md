@@ -1,4 +1,4 @@
-# QuickPckSnippets README
+# QuickPickSnippets README
 Insert your own snippets from the QuickPick list. With this extension,there is no need to remember so many keyboard shortcuts for snippets anymore.
 
 ## Screen Shot
