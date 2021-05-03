@@ -54,3 +54,7 @@ If you want to add this command to the editor's context menu, check "Add To Edit
 - README
 - Package.json
 
+### 1.0.2
+####  Fixed
+- README
+

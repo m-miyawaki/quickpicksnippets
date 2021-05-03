@@ -9,3 +9,7 @@
 ### Fixed
 - README
 - Package.json
+
+### 1.0.2
+####  Fixed
+- README
