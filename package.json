@@ -1,7 +1,7 @@
 {
   "name": "quickpicksnippets",
   "displayName": "QuickPickSnippets",
-  "description": "Insert your own snippets from the QuickPick list.",
+  "description": "Insert your own snippets from the QuickPick list. With this extension,there is no need to remember so many keyboard shortcuts for snippets anymore.",
   "publisher": "miyawaki",
   "repository": {
     "url": "https://github.com/m-miyawaki/quickpicksnippets",
@@ -13,6 +13,10 @@
   },
   "categories": [
     "Other",
+    "Snippets"
+  ],
+  "keywords": [
+    "QuickPick",
     "Snippets"
   ],
   "activationEvents": [
