@@ -13,3 +13,7 @@
 ### 1.0.2
 ####  Fixed
 - README
+
+### 1.0.3
+#### Fixed
+- minor bug

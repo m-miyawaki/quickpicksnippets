@@ -4,10 +4,13 @@
   "description": "Insert your own snippets from the QuickPick list. With this extension,there is no need to remember so many keyboard shortcuts for snippets anymore.",
   "publisher": "miyawaki",
   "repository": {
-    "url": "https://github.com/m-miyawaki/quickpicksnippets",
+    "url": "https://github.com/m-miyawaki/quickpicksnippets.git",
     "type": "git"},
- "license": "MIT-0",
-  "version": "1.0.2",
+  "license": "MIT-0",
+  "bugs": {
+    "url": "https://github.com/m-miyawaki/quickpicksnippets/issues"
+  },
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.54.0"
   },

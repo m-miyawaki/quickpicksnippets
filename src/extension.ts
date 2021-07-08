@@ -21,7 +21,7 @@ export function activate(context: vscode.ExtensionContext) {
 		let name = values[nNum];
 		let group = values[gNum];
 		if (sNum === -1){snpt = '';}
-		if(sNum === -1){name = snpt;}
+		if(nNum === -1){name = snpt;}
 		if (gNum === -1 ){
 			grpArray[0].push(name);
 			snptArray[0].push(snpt);

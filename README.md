@@ -27,7 +27,7 @@ Add the objects at "quickpicksnippets.snippets"section in your ```settings.json`
 		},
 		{
 			"group": "address",
-			"snippet": " <City><Province><Country><ZIP code>",
+			"snippet": "your home address",
 			"name": "home"
 		}
 	]
@@ -43,18 +43,4 @@ A "group" key is also optional. If this key and value are set, the value (i.e. a
 ### <a name="jump"></a>Adding To Editor Context Menu
 If you want to add this command to the editor's context menu, check "Add To Editor Context Menu" in the Settings UI.
 
-
-## Release Notes
-### 1.0.0
-
-- First release.
-
-### 1.0.1
-####  Fixed
-- README
-- Package.json
-
-### 1.0.2
-####  Fixed
-- README
 
